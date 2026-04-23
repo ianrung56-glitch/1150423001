@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIMEE 酸甜日常 | 鳳梨小宇宙</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap');
+        body { font-family: 'Noto Sans TC', sans-serif; }
+        .bg-pineapple { background-color: #FFD700; }
+        .text-pineapple { color: #D4A017; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
 
+    <nav class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex justify-between items-center">
+            <div class="text-xl font-bold text-pineapple">🍍 AIMEE 酸甜日常</div>
+            <div class="hidden md:flex space-x-6 font-medium">
+                <a href="#about" class="hover:text-yellow-600 transition">關於我</a>
+                <a href="#categories" class="hover:text-yellow-600 transition">內容分類</a>
+                <a href="#" class="hover:text-yellow-600 transition">購物商城</a>
+                <a href="#" class="hover:text-yellow-600 transition">合作邀約</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-pineapple py-24 text-center px-4">
+        <h1 class="text-5xl font-bold mb-4">歡迎來到鳳梨小宇宙</h1>
+        <p class="text-lg opacity-90">真實生活的酸、甜、刺，都是最精彩的日常。</p>
+    </header>
+
+    <section id="about" class="max-w-5xl mx-auto py-20 px-6">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="w-64 h-64 rounded-full bg-gray-200 shadow-xl overflow-hidden flex-shrink-0 border-4 border-white">
+                <div class="w-full h-full flex items-center justify-center bg-yellow-100">
+                    <i class="fa-solid fa-user text-6xl text-yellow-500"></i>
+                </div>
+            </div>
+            
+            <div class="flex-1">
+                <h2 class="text-3xl font-bold mb-6 text-pineapple">Hello, 我是 Amy</h2>
+                <div class="space-y-4 text-lg leading-relaxed text-gray-700">
+                    <p>
+                        我是一位熱愛內容創作與行銷專業的創作者。曾於<strong>香港與北京</strong>深耕多年，參與過多場大型活動策劃與演唱會執行，這些豐富的跨城市經驗，讓我對品牌經營與市場脈動有著敏銳的觀察力。
+                    </p>
+                    <p>
+                        目前，我專注於經營 <strong>「AIMEE Sweet and Sour Routine」</strong> 個人品牌。透過「鳳梨」這個象徵，記錄生活中的酸甜與挑戰。對我而言，生活或許有時帶刺，但只要用心經營，內裡始終甘甜。
+                    </p>
+                    <p>
+                        除了行銷與影音剪輯，我也正沉浸在 <strong>Java 程式設計</strong>的邏輯世界中。這裡記錄了我的跨領域轉職筆記、美食足跡以及健身日記。
+                    </p>
+                </div>
+                <div class="mt-8 flex gap-4">
+                    <a href="#" class="bg-pineapple px-6 py-2 rounded-lg font-bold hover:shadow-md transition">聯繫我</a>
+                    <div class="flex items-center gap-4 text-2xl ml-4">
+                        <i class="fa-brands fa-youtube cursor-pointer hover:text-red-600"></i>
+                        <i class="fa-brands fa-instagram cursor-pointer hover:text-pink-600"></i>
+                        <i class="fa-brands fa-facebook cursor-pointer hover:text-blue-600"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="max-w-6xl mx-auto border-gray-200">
+
+    <section id="categories" class="max-w-6xl mx-auto py-20 px-6">
+        <h2 class="text-3xl font-bold text-center mb-12">探索更多</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-lg transition text-center border-t-4 border-yellow-400">
+                <i class="fa-solid fa-utensils text-4xl text-yellow-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">美食與旅遊</h3>
+                <p class="text-gray-600">分享台灣、香港與澳洲的道地美食與旅遊筆記。</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-lg transition text-center border-t-4 border-yellow-400">
+                <i class="fa-solid fa-laptop-code text-4xl text-yellow-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">數位行銷 / Java</h3>
+                <p class="text-gray-600">記錄從行銷企劃到 Java 學習的邏輯挑戰與成長點滴。</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-lg transition text-center border-t-4 border-yellow-400">
+                <i class="fa-solid fa-dumbbell text-4xl text-yellow-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">健康生活</h3>
+                <p class="text-gray-600">健身紀錄與減肥日記，與你一起追求更美好的自我。</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-100 py-10 text-center text-gray-500 text-sm">
+        <p>© 2026 AIMEE Sweet and Sour Routine. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
